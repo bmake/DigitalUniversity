@@ -12,7 +12,6 @@
     <bpmn:messageFlow id="MessageFlow_10ngacg" sourceRef="Task_1eq7lvo" targetRef="Participant_1thqkje" />
     <bpmn:messageFlow id="MessageFlow_05q2wak" sourceRef="Task_1schihw" targetRef="Participant_0zyhyba" />
     <bpmn:messageFlow id="MessageFlow_0mv6p95" sourceRef="IntermediateThrowEvent_010ww7i" targetRef="Participant_1w4rdz8" />
-    <bpmn:messageFlow id="MessageFlow_10h7t3n" sourceRef="IntermediateThrowEvent_010ww7i" targetRef="Participant_04gz34q" />
     <bpmn:messageFlow id="MessageFlow_1v0yzc2" sourceRef="Participant_04gz34q" targetRef="Task_1dzi3mc" />
     <bpmn:messageFlow id="MessageFlow_1met740" sourceRef="Participant_1w4rdz8" targetRef="Task_1nb494g" />
     <bpmn:messageFlow id="MessageFlow_06kz82l" sourceRef="IntermediateThrowEvent_17zn46u" targetRef="Participant_1w4rdz8" />
@@ -385,15 +384,6 @@
         <di:waypoint xsi:type="dc:Point" x="1351" y="179" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1321" y="269.5" width="90" height="12" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="MessageFlow_10h7t3n_di" bpmnElement="MessageFlow_10h7t3n">
-        <di:waypoint xsi:type="dc:Point" x="1351" y="372" />
-        <di:waypoint xsi:type="dc:Point" x="1351" y="214" />
-        <di:waypoint xsi:type="dc:Point" x="851" y="214" />
-        <di:waypoint xsi:type="dc:Point" x="851" y="180" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="1056" y="193" width="90" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Task_1nb494g_di" bpmnElement="Task_1nb494g">
