@@ -159,7 +159,7 @@
         <bpmn:outgoing>SequenceFlow_1bibimt</bpmn:outgoing>
       </bpmn:exclusiveGateway>
       <bpmn:sequenceFlow id="SequenceFlow_0a32nd4" sourceRef="ExclusiveGateway_0kgoyr2" targetRef="ExclusiveGateway_0wfk5to" />
-      <bpmn:task id="Task_0t5ulvi" name="Korrigierte Rechnung anforden">
+      <bpmn:task id="Task_0t5ulvi" name="Korrigierte Rechnung anfordern">
         <bpmn:incoming>SequenceFlow_15e0r8p</bpmn:incoming>
         <bpmn:outgoing>SequenceFlow_0wodiv4</bpmn:outgoing>
       </bpmn:task>
@@ -175,7 +175,7 @@
       <bpmn:sequenceFlow id="SequenceFlow_0wodiv4" sourceRef="Task_0t5ulvi" targetRef="EndEvent_1mkj06o" />
     </bpmn:subProcess>
     <bpmn:sequenceFlow id="SequenceFlow_1g5hmfo" sourceRef="SubProcess_0xly05h" targetRef="Task_01e157h" />
-    <bpmn:task id="Task_01e157h" name="Kontierungs-stempel unterzeichen">
+    <bpmn:task id="Task_01e157h" name="Kontierungs-stempel unterzeichnen">
       <bpmn:incoming>SequenceFlow_1g5hmfo</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1fyju96</bpmn:outgoing>
     </bpmn:task>
