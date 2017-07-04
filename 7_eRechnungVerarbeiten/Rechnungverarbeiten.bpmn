@@ -103,9 +103,12 @@
     <bpmn:endEvent id="EndEvent_0xrcihn" name="Rechnung archiviert">
       <bpmn:incoming>SequenceFlow_1a4ke5v</bpmn:incoming>
     </bpmn:endEvent>
-    <bpmn:task id="Task_13q7d7t" name="Belege archivieren">
+    <bpmn:task id="Task_13q7d7t" name="Belege in Datenbank archivieren">
       <bpmn:incoming>SequenceFlow_0osdstg</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1a4ke5v</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_1twqm50">
+        <bpmn:targetRef>DataStoreReference_0gdp7gn</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
     </bpmn:task>
     <bpmn:task id="Task_1x5g82y" name="Rechnungs-betrag bezahlen">
       <bpmn:incoming>SequenceFlow_0x9ka89</bpmn:incoming>
@@ -188,6 +191,7 @@
       <bpmn:incoming>SequenceFlow_1gap28f</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1bnuouf</bpmn:outgoing>
     </bpmn:task>
+    <bpmn:dataStoreReference id="DataStoreReference_0gdp7gn" name="Datenbank" />
     <bpmn:association id="Association_0oa4b8t" sourceRef="Task_07vbu9n" targetRef="TextAnnotation_0tnusvz" />
     <bpmn:association id="Association_1tqx4hl" sourceRef="Task_01e157h" targetRef="TextAnnotation_0vsgx9y" />
     <bpmn:textAnnotation id="TextAnnotation_0vsgx9y">    <bpmn:text>Rechnerische- und Sachliche Prüfung auf Kontierungsstempel vermerken</bpmn:text>
@@ -631,6 +635,17 @@
           <dc:Bounds x="2100" y="852" width="0" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="DataStoreReference_0gdp7gn_di" bpmnElement="DataStoreReference_0gdp7gn">
+        <dc:Bounds x="3047.7351962741186" y="118.52628077178977" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="3046" y="95" width="53" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1twqm50_di" bpmnElement="DataOutputAssociation_1twqm50">
+        <di:waypoint xsi:type="dc:Point" x="3067" y="224" />
+        <di:waypoint xsi:type="dc:Point" x="3070" y="169" />
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>
+
