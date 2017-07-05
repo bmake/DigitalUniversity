@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.7.2">
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.8.2">
   <bpmn:collaboration id="Collaboration_1ktwmrn">
     <bpmn:participant id="Participant_0ym7k5p" name="TH Brandenburg" processRef="Process_1" />
     <bpmn:participant id="Participant_0f7blxu" name="Reisende Mitarbeiter" />
@@ -94,7 +94,7 @@
         <bpmn:incoming>SequenceFlow_0fk24zg</bpmn:incoming>
       </bpmn:endEvent>
       <bpmn:sequenceFlow id="SequenceFlow_0fk24zg" sourceRef="ExclusiveGateway_0f42lqy" targetRef="EndEvent_0s7qv2x" />
-      <bpmn:sequenceFlow id="SequenceFlow_05ah8nl" sourceRef="ExclusiveGateway_16ibkx2" targetRef="ExclusiveGateway_0f42lqy" />
+      <bpmn:sequenceFlow id="SequenceFlow_05ah8nl" name="ja" sourceRef="ExclusiveGateway_16ibkx2" targetRef="ExclusiveGateway_0f42lqy" />
     </bpmn:subProcess>
     <bpmn:sequenceFlow id="SequenceFlow_0rsh859" sourceRef="SubProcess_09d200i" targetRef="Task_19dn8cu" />
     <bpmn:sequenceFlow id="SequenceFlow_0ditvat" sourceRef="Task_19dn8cu" targetRef="Task_0te96tu" />
@@ -809,7 +809,7 @@
         <di:waypoint xsi:type="dc:Point" x="860" y="591" />
         <di:waypoint xsi:type="dc:Point" x="860" y="409" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="875" y="494" width="0" height="12" />
+          <dc:Bounds x="871" y="494" width="9" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_0jp4vvn_di" bpmnElement="Task_18vau48">
