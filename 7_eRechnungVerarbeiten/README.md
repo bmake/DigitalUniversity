@@ -1,1 +1,1 @@
-![rechnungverarbeiten123](https://user-images.githubusercontent.com/29437801/27799961-9e8af9c2-6017-11e7-9c55-52659aff50e6.png)
+![rechnungverarbeiten99](https://user-images.githubusercontent.com/29437801/27836257-f7ae15bc-60de-11e7-979f-058fbb03174d.png)
