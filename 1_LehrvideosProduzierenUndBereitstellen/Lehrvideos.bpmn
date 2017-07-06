@@ -109,7 +109,7 @@
         <bpmn:outgoing>SequenceFlow_1iz8ded</bpmn:outgoing>
       </bpmn:task>
       <bpmn:sequenceFlow id="SequenceFlow_1iz8ded" sourceRef="Task_09rjbfn" targetRef="IntermediateThrowEvent_140gfda" />
-      <bpmn:task id="Task_1dj1tsp" name="Mikrofon am Professor anbringen">
+      <bpmn:task id="Task_1dj1tsp" name="Mikrofon am/an Lektor/-in anbringen">
         <bpmn:incoming>SequenceFlow_0wglgm7</bpmn:incoming>
         <bpmn:outgoing>SequenceFlow_1on5m3z</bpmn:outgoing>
       </bpmn:task>
