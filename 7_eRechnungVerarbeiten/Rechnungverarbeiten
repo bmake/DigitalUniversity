@@ -187,7 +187,7 @@
       <bpmn:incoming>SequenceFlow_1tpk5r3</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_004yei5</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:userTask id="Task_0862g59" name="in FB/DMS-Software einfügen">
+    <bpmn:userTask id="Task_0862g59" name="in FiBu/DMS-Software einfügen">
       <bpmn:incoming>SequenceFlow_1cbl36n</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_08ggerp</bpmn:outgoing>
     </bpmn:userTask>
