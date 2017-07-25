@@ -280,15 +280,14 @@
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Participant_1ogdpzo_di" bpmnElement="Participant_0uzkr3x">
-        <dc:Bounds x="109" y="-303" width="3213" height="91" />
+        <dc:Bounds x="116" y="-303" width="3164" height="82" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_1nmfrox_di" bpmnElement="MessageFlow_1nmfrox">
-        <di:waypoint xsi:type="dc:Point" x="246" y="-212" />
-        <di:waypoint xsi:type="dc:Point" x="246" y="-10" />
+        <di:waypoint xsi:type="dc:Point" x="219" y="-221" />
         <di:waypoint xsi:type="dc:Point" x="219" y="-10" />
         <di:waypoint xsi:type="dc:Point" x="219" y="191" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="187.5" y="-31" width="90" height="12" />
+          <dc:Bounds x="189" y="-121.5" width="90" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="StartEvent_0od9b35_di" bpmnElement="StartEvent_1">
@@ -323,9 +322,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_1qwpifk_di" bpmnElement="MessageFlow_1qwpifk">
         <di:waypoint xsi:type="dc:Point" x="2053" y="771" />
-        <di:waypoint xsi:type="dc:Point" x="2053" y="-212" />
+        <di:waypoint xsi:type="dc:Point" x="2053" y="-221" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="2068" y="-141" width="30" height="12" />
+          <dc:Bounds x="2068" y="-149.29501525941004" width="30" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0qviw3o_di" bpmnElement="SequenceFlow_0qviw3o">
@@ -364,9 +363,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_0df0lvr_di" bpmnElement="MessageFlow_0df0lvr">
         <di:waypoint xsi:type="dc:Point" x="1295" y="-58" />
-        <di:waypoint xsi:type="dc:Point" x="1295" y="-212" />
+        <di:waypoint xsi:type="dc:Point" x="1295" y="-221" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1315" y="-202.93478260869566" width="54" height="12" />
+          <dc:Bounds x="1315" y="-211.12337662337666" width="54" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="SubProcess_1gkmays_di" bpmnElement="Task_1gz6juk" isExpanded="true">
